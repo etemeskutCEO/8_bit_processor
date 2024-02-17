@@ -1,2 +1,2 @@
 # 8_bit_processor
-I made a 8-bit processor design with verilog and simulated it on vivado.
+This project is the VERILOG implementation of the 8-bit computer design of "Introduction to logic circuits & logic design with vhdl" by Brock J. Lamares.
