@@ -61,9 +61,9 @@ initial begin
 end
     always @(*) begin
         if(address >= 8'h00 && address <= 8'h7F) begin
-            enable <= 1'b1;
+            enable = 1'b1;
         end else begin
-            enable <= 1'b0;
+            enable = 1'b0;
         end
     end
 
