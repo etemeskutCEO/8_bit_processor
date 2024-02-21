@@ -18,6 +18,6 @@ module cpu(
                                 B_Load,CCR_Load,write_en,ALU_Sel,BUS1_Sel,BUS2_Sel);
 
     data_paths data_path1(clk,rst,IR_Load,MAR_Load,PC_Load,PC_Inc,A_Load,B_Load,CCR_Load,
-                          write_en,ALU_Sel,BUS1_Sel,BUS2_Sel);
+                          ALU_Sel,BUS1_Sel,BUS2_Sel,from_memory,IR,address,to_memory,CCR_Result);
 
 endmodule
